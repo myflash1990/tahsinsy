@@ -29,7 +29,7 @@ public class StackProblems {
             if (b.equals((Books[t]))) {
 
                 System.out.println("Index is in: " + t + " " + Books[t]);
-                return;
+                break;
             }
 
 
