@@ -14,7 +14,6 @@ public class Arrays {
         intarry[3] = 43;
 
         int[] value;
-
         value = new int[5];
 
         value[1] = 90;
