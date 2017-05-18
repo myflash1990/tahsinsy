@@ -6,20 +6,40 @@ public class ReverseString {
 
     public static void main(String[] args) {
 
+        String ebay = "$ 14.230";
+
+        System.out.println(ebay);
+
+        String delims;
+
+        delims = ebay.substring(2,7);
+
+        System.out.println(delims);
+
+        double bid = Double.parseDouble(delims);
+
+        System.out.println(bid);
+
+
+
+        double add = bid + 0.1;
+       System.out.println(add);
+//
+//        String element = "el5";
+//        int x = Character.getNumericValue(ebay.charAt(4));
+//        System.out.println("x=" + x);
+
         String original = "Some string for testing";
         String rev = "";
 
 
         // Reverse by every letters in string
 
-        int len = original.length();
+        //int len = original.length();
 
-        for (int i = len - 1; i >= 0; i--) {
-
+        for (int i = original.length() - 1; i >= 0; i--) {
 
             rev = rev + original.charAt(i);
-
-
         }
 
         System.out.println(rev);
